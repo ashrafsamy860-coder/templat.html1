@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+body { 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  margin: 0;
+  padding: 0;
+}
+.full-width-carousel { 
+  margin: 0 !important; 
+  padding: 0 !important; 
+}
+.full-width-carousel img { 
+  width: 100vw !important; 
+  height: 500px !important; 
+  object-fit: cover !important;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.card-hover { 
+  transition: all 0.3s ease; 
+}
+.card-hover:hover { 
+  transform: translateY(-10px); 
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important; 
+}
